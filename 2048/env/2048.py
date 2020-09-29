@@ -20,4 +20,3 @@ class Grid:
     # def empty_tiles (function to check if tiles are empty given dict adjacency checking)
 
 
-# https://gist.github.com/silversthem/4a9d220ccfaf8c0ec2290356f80eecc1

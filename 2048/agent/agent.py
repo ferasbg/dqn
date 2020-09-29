@@ -1,5 +1,4 @@
-from src.ddqn import target_model
-from src.2048 import GameOf2048
+from 2048.agent import target_model
 import copy
 from util import *
 import os
@@ -14,7 +13,6 @@ from tensorflow.keras import Model, Sequential
 from tensorflow.keras.layers import Dense, Embedding, Reshape
 from tensorflow.keras.optimizers import Adam
 
-from agent.GameOf2048 import Game2048
 from rl.agents.dqn import DQNAgent
 from rl.policy import EpsGreedyQPolicy
 from rl.memory import SequentialMemory
